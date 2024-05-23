@@ -6,6 +6,10 @@ services:
       - 6334
     volumes:
       - ./qdrant_storage:/qdrant/storage:z
+    ulimits:
+      nofile:
+        soft: 65535
+        hard: 65535
     
   server:
     build:
