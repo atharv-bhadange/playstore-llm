@@ -1,0 +1,18 @@
+services:
+  qdrantdb:
+    image: qdrant/qdrant
+    expose:
+      - 6333
+      - 6334
+    volumes:
+      - ./qdrant_storage:/qdrant/storage:z
+    
+  server:
+    build:
+      context: .
+    ports:
+      - 8501:8501
+    depends_on:
+      - qdrantdb
+    env_file:
+      - .env

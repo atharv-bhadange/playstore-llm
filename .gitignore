@@ -1,0 +1,4 @@
+.env
+.conda
+qdrant_storage
+.vscode

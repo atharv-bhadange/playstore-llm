@@ -1,0 +1,9 @@
+requests
+bs4
+qdrant-client
+langchain_community
+langchain
+python-dotenv
+jq
+streamlit
+huggingface_hub
