@@ -10,7 +10,7 @@ A chatbot that helps you find games according to your mood.
 - **Beautiful Soup**
 
 ## Deployment
-- **Website on AWS EC2 instance (free tier):** [Game Recommendation System](http://ec2-15-207-99-226.ap-south-1.compute.amazonaws.com:8501)
+- **Website on AWS EC2 instance (free tier):** [Game Recommendation System](http://15.207.99.226:8501)
 - **Qdrant Vector store on AWS EC2 instance**
 - Can scale both independently according to need
 
